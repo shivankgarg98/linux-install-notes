@@ -1,4 +1,18 @@
 # Essential packages for your linux.
 #Also take note of dependecy issues.
 
-#Terminator, vim, emacs, vlc, virtualbox, gparted, some code-editor(VS-code), i3, feh, libreoffice, google-chrome
+##Terminator, vim, emacs, vlc, virtualbox, gparted, some code-editor(VS-code), i3, feh, libreoffice, google-chrome, git, xclip, redshift, mons, zsh, transmission, w3m, ranger, curl, autoconf, automake
+##playerctl, spotify, scrot 
+--------------------------
+## i3 dependencies
+sudo apt install -y i3blocks, dmenu, rofi
+# imagemagick for i3lock-fancy
+# enable single-tap click - https://askubuntu.com/questions/903206/unable-to-set-default-values-for-synps-2-synaptic
+--------------------------
+## Vundle for vim
+## Prezto for zsh
+
+--------------------------
+
+##misc
+#handle what power key does see logind.conf- https://superuser.com/questions/699905/change-behavior-of-linux-power-button
