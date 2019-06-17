@@ -1,8 +1,8 @@
 # Essential packages for your linux.
 #Also take note of dependecy issues.
 
-##Terminator, vim, emacs, vlc, virtualbox, gparted, some code-editor(VS-code), i3, feh, libreoffice, google-chrome, git, xclip, redshift, mons, zsh, transmission, w3m, ranger, curl, autoconf, automake
-##playerctl, spotify, scrot 
+##Terminator, vim, git, emacs, vlc, virtualbox, gparted, some code-editor(VS-code), i3, feh, libreoffice, google-chrome, git, xclip, redshift, mons, zsh, transmission, w3m, ranger, curl, autoconf, automake
+##playerctl, spotify, scrot, openssh-server, lxappearance, spotify, 
 --------------------------
 ## i3 dependencies
 sudo apt install -y i3blocks, dmenu, rofi
