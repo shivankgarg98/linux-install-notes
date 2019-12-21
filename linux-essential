@@ -1,5 +1,6 @@
 #!/bin/bash
 
+apt update && apt install -y curl wget
 curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 
@@ -15,28 +16,28 @@ apt update
 ##playerctl, spotify, scrot, openssh-server, lxappearance, spotify, fonts-font-awesome
 
 
-apt install -y terminator vim git emacs vlc virtualbox gparted feh git xclip redshift zsh transmission w3m ranger curl autoconf automake playerctl scrot openssh-server lxappearance fonts-font-awesome evince gdb
+apt install -y terminator vim git emacs vlc virtualbox gparted feh git xclip redshift zsh transmission w3m ranger curl autoconf automake playerctl scrot openssh-server lxappearance fonts-font-awesome evince gdb imagemagick
 
 apt install -y spotify-client
 
 apt install -y  apt-transport-https code
 # --------------------------
 ## i3 dependencies
-apt install -y i3 dmenu rofi
+apt install -y i3 i3blocks dmenu rofi
 # imagemagick for i3lock-fancy
 # enable single-tap click - https://askubuntu.com/questions/903206/unable-to-set-default-values-for-synps-2-synaptic
---------------------------
+# --------------------------
 ## Vundle for vim
 ## Prezto for zsh
 
---------------------------
+# --------------------------
 
 ##misc
 #handle what power key does see logind.conf- https://superuser.com/questions/699905/change-behavior-of-linux-power-button
-#
+# install light for brightness control with appropriate privileges
 #
 
-----------------------------
+# ----------------------------
 
 
 # Sound Equalizer - # PulseEffect - better
